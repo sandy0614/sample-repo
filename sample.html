@@ -3,27 +3,52 @@
 <HEAD>
 <TITLE> Sample HTML Page </TITLE>
 <style>
-#loginD{
-position: fixed;
-left: 50px;
+.header2{
+position:fixed;
+top: 10px;
+left: 350px;
+color: Red;
+size: 18;
+}
+.header5{
+position:relative;
+top: 50px;
+left: 420px;
+color: Brown;
+size: 14;
+}
+#log_in{
+position:relative;
+top: 150px;
+left: 350px;
+color: Blue;
+}
+#loginbtn{
+position: relative;
+left: 350px;
 top: 200px;
+}
+#link1{
+position: relative;
+left: 350px;
+top: 250px;
 }
 </style>
 </HEAD>
 <BODY>
-<h2>Welcome to FCG </h2>
-<h5>FCG - First Consulting Group LLC </h5>
+<h2 class="header2">Welcome to FCG </h2>
+<h5 class="header5"> First Consulting Group LLC </h5>
 
-<p> Login Details </p>
-User Name: <input type="text" name="uname" length=8 value=" "> </br>
-Password : <input type="password" name="paswd" length=8 >
-</p>
-<p id="loginD">
-<Button type="button" name="submit" Value="Submit" size=20> Submit
-<Button type="button" name="reset" Value="Reset" size=20> Reset
+<div id="log_in"> Login Details </br></br>
+<div id="un">User Name: <input type="text" name="uname" length=8 value=" "> </br></div>
+<div id="pw">Password : <input type="password" name="paswd" length=8 ></div>
+</div>
+<p id="loginbtn">
+<Button id="btn1" type="button" name="submit" Value="Submit" size=10> Submit </Button>
+<Button id="btn2" type="button" name="reset" Value="Reset" size=10> Reset </Button>
 </p>
 
-<p><href a="www.firstconsultinggrp.com">
+<p id="link1"><a href="www.firstconsultinggrp.com"> Click here to visit FCG website</p>
 
 </BODY>
 </HTML>
