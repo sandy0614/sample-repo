@@ -1,0 +1,7 @@
+sandy@SandyVM:~$ pwd
+/home/sandy
+sandy@SandyVM:~$ cd Documents/
+sandy@SandyVM:~/Documents$ cd DevOps_Sample/
+sandy@SandyVM:~/Documents/DevOps_Sample$ ls
+file1.txt  file2.txt  file3.txt  file4.txt  file5.txt  sample.html
+
